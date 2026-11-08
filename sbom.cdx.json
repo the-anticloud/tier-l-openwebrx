@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:aeff4d3d-fc67-56aa-af7d-d57d629798bb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-14T06:12:24Z",
+    "component": {
+      "type": "application",
+      "name": "L_OPENWEBRX",
+      "version": "640c5b0b3e19",
+      "bom-ref": "pkg:generic/anticloud/L_OPENWEBRX@640c5b0b3e19",
+      "purl": "pkg:generic/anticloud/L_OPENWEBRX@640c5b0b3e19",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "640c5b0b3e19b10d823a7ee703f2a683ec848eac"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/jketterl/openwebrx"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "openwebrx",
+      "version": "=owrx.__main__:main",
+      "purl": "pkg:pypi/openwebrx@owrx.__main__:main",
+      "bom-ref": "pypi/openwebrx@=owrx.__main__:main"
+    }
+  ]
+}
